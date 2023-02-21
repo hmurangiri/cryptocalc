@@ -1,0 +1,119 @@
+body {
+    background: url("bak.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+table.blueTable {
+    border: 4px groove #1C6EA4;
+    background-color: #EEEEEE;
+    text-align: left;
+    border-spacing: 0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+table.blueTable td, table.blueTable th {            
+    border: 2px groove #1C6EA4; 
+    padding: 5px 10px;
+    width: 130px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+table.blueTable tbody td {
+    font-size: 13px;
+    font-weight: bold;
+}
+table.blueTable tfoot td {
+    font-size: 14px;
+}
+table.blueTable tfoot .links {
+    text-align: right;
+}
+table.blueTable tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.calc.myButton {
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:4px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:5px 3px;
+    text-decoration:none;
+    margin: auto;
+    display: block;
+}
+
+.tabs.myButton {
+    text-align: center;
+    border-radius:4px;
+
+    display:inline-block;
+    cursor:pointer;
+    color:#070707;
+    font-family:Arial;
+    font-size:13px;
+    padding:5px 3px;
+    text-decoration:none;
+    margin: auto;
+    display: block;
+}
+
+.myButton:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+table.tabs td{
+    padding: 0px 0px;
+    /* border: none; */
+    border-radius: 1px;
+    border: 1px groove #1C6EA4; 
+}
+
+table.tabs {
+    border: none;
+    margin-top: 10%;
+    border: 4px ridge #1C6EA4; 
+    border-radius: 7px;
+    /* border-top-right-radius: 5px;
+    border-top-left-radius: 5px; */
+}
+.blueTable.tabs {
+    width: 350px;
+}
+
+.dropdown-menu {
+    padding-left: 20px;
+    width: 350px;
+}
+
+.dropdown-menu li:hover {
+    background-color: rgb(246, 246, 246);
+}
+
+.dropdown-menu li {
+    padding: 5px;
+}
+
+#calcheader {
+    text-align: center;
+    padding: 8px;
+}
