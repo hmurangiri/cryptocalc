@@ -1,5 +1,5 @@
 body {
-    background: url("bak.jpg") no-repeat center center fixed;
+    background: url("../bak.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 table.blueTable {
